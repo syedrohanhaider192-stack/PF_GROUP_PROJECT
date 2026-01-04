@@ -1,3 +1,12 @@
+// ---------------------------------------------
+// Student Performance Management System
+// Language: C++
+// Course: Programming Fundamentals
+// Description:
+// This program manages student records,
+// calculates grades and predicts performance.
+// ---------------------------------------------
+
 #include <iostream>
 #include <vector>
 #include <fstream>
