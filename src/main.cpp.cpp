@@ -203,7 +203,7 @@ void predictStd() {
 
             float avg = calcAvg(data[i]);
 
-            // simple rough estimation
+            // Calculate prediction using average and attendance
             float est = (avg * 0.75) + (data[i].att * 0.25);
 
             if (est > 100) est = 100;
