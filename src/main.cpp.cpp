@@ -64,7 +64,7 @@ int main() {
     return 0;
 }
 
-// MENU
+// SHOW MENU OPTIONS TO USER
 void menu() {
     cout << "\n==============================\n";
     cout << " Student Performance System\n";
@@ -79,7 +79,7 @@ void menu() {
     cout << "8. Exit\n";
 }
 
-// ADD
+// ADD NEW STUDENT RECORD
 void addStd() {
 
     Student s;
@@ -104,7 +104,7 @@ void addStd() {
     cout << "Student added.\n";
 }
 
-// VIEW
+// DISPLAY ALL STUDENTS
 void showAll() {
 
     if (data.size() == 0) {
